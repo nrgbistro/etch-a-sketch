@@ -1,0 +1,32 @@
+html, body {
+	margin: 0;
+	padding: 5px;
+}
+
+body {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.mainContainer {
+	height: 100%;
+	margin: auto;
+	width: 100vh;
+	border: 2px solid black;
+}
+
+.flexGrid {
+	display: flex;
+}
+
+.col {
+	flex: 1;
+	height: 100%;
+}
+
+button {
+	height: 40px;
+	font-size: 18px;
+	width: 100px
+}
